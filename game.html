@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<title>Geometric Run</title>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+html {
+    overflow: hidden;
+}
+canvas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: solid 1px black;
+}
+#buttons {
+    display: flex;
+    margin: 0.3rem;
+    gap: 0.5rem;
+}
+#materials {
+    display: flex;
+    max-width: 30%;
+    overflow-x: scroll;
+}
+#pages {
+    margin-left: auto;
+}
+</style>
+
+</head>
+<body>
+    <canvas width="1920" height="1080">Your browser does not support the HTML5 canvas tag.</canvas>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
